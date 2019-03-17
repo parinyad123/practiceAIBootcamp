@@ -185,12 +185,15 @@ Step 6: Plot learning curves for the polynomial features with lambda in Lambda
 J_train_optimal_lambda, J_cv_optimal_lambda = [], []
 
 for i in range(11):
-    initial_theta_polynomial = # Put your code here
+    initial_theta_polynomial = np.ones((X_train_polynomial_normalized.shape[1],1))
 
-    cost_train, cost_cv = # Put your code here
+    cost_train, cost_cv = learningCurve(initial_theta_polynomial, X_train_polynomial_normalized, y_train,
+                                        X_cv_polynomial_normalized, y_cv, i)
 
     # Write code to store the cost of training dataset into J_train_optimal_lambda
+    J_train_optimal_lambda.append(cost_train[-1])
     # Write code to store the cost of training dataset into J_cv_optimal_lambda
+    J_cv_optimal_lambda.append(cost_cv[-1])
 
 plt.figure(5)
 plt.plot(range(11), J_train_optimal_lambda, label="Train")

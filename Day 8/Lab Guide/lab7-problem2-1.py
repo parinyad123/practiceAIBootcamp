@@ -156,7 +156,8 @@ polynomial = PolynomialFeatures(degree=8)
 # Generate a new feature matrix consisting of all polynomial combinations of the features with degree less
 # than or equal to degree 8
 # See https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html
-X_train_polynomial = # Put your code here 
+X_train_polynomial = polynomial.fit_transform(X_train[:,1].reshape(-1,1))
+# ใส่ reshape เพราะบอกว่าไม่แค่ขนาด แต่มีขนาดตาม input
 
 print('After fitting to degree 8')
 print(X_train_polynomial)

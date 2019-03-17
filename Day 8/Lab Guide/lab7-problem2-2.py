@@ -170,6 +170,6 @@ Step 5: Normalize the polynomial features
 # https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html
 normalizer = StandardScaler()
 
-X_train_polynomial_normalized = # Put your code here
+X_train_polynomial_normalized = normalizer.fit(X_train_polynomial)
 print('After Normalizing')
 print(X_train_polynomial_normalized)

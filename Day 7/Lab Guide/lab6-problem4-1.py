@@ -132,22 +132,22 @@ for iteration in range(0, max_iteration):
                 delta[l - 1] = np.multiply(activationDerivative(z_arr[l - 1]), Weights[l] * delta[l])
 
         # Gradient checking
-        if False:
+        if True:
             print('\n')
             print("Target: {}".format(y_sample))
             print("Predicted y: {}".format(a_arr[L][0, 0]))
 
             diff = 1e-4
-            Weights[1][10, 0] = # Put your code here
-            predicted_y_analytic_positive = # Put your code here
+            Weights[1][10, 0] = Weights[1][10,0] + diff
+            predicted_y_analytic_positive = feedforward(x_sample, Weights, Biases)
 
-            Weights[1][10, 0] = # Put your code here
-            predicted_y_analytic_negative = # Put your code here
+            Weights[1][10, 0] = Weights[1][10,0] - (2*diff)
+            predicted_y_analytic_negative = feedforward(x_sample, Weights, Biases)
 
             cost_positive = costFunction(y_sample, predicted_y_analytic_positive)
             cost_negative = costFunction(y_sample, predicted_y_analytic_negative)
 
-            gradient_analytic = # Put your code here
+            gradient_analytic = (cost_positive - cost_negative) / (2*diff)
 
             print("Positive Cost: {}, Negative Cost: {}".format(cost_positive[0, 0], cost_negative[0, 0]))
             print("Theoretical Gradient: {}, Analytical Gradient: {}".format(gradient_weights[1][10, 0],

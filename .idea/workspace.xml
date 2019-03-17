@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22c1532f-2408-4eca-aeb9-a99dc705fb67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 7/Lab Guide/data/digits.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 7/Lab Guide/data/weights.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 8/Lab Guide/data/lab7data1.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem3-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem3-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem4-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem4-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem1-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem1-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem3-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem3-1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,23 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem3-1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem3-2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="-314">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -39,13 +33,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem5-1.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem4-1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1253">
-              <caret line="153" column="52" lean-forward="true" selection-start-line="153" selection-start-column="52" selection-end-line="153" selection-end-column="52" />
+            <state relative-caret-position="316">
+              <caret line="157" column="70" lean-forward="true" selection-start-line="157" selection-start-column="70" selection-end-line="157" selection-end-column="70" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,12 +89,21 @@
         <option value="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem2-5.py" />
         <option value="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem3-1.py" />
         <option value="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem5-1.py" />
+        <option value="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem1-1.py" />
+        <option value="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-1.py" />
+        <option value="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-2.py" />
+        <option value="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-3.py" />
+        <option value="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-4.py" />
+        <option value="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem3-1.py" />
+        <option value="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem3-2.py" />
+        <option value="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem4-1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="23" />
-    <option name="width" value="1409" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="77" />
+    <option name="y" value="29" />
+    <option name="width" value="1294" />
     <option name="height" value="695" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -116,17 +119,6 @@
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="Day 5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="Day 5" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab Guide" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
@@ -153,6 +145,7 @@
       <recent name="$PROJECT_DIR$/Day4/Lab Guide" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Day 8/Lab Guide" />
       <recent name="$PROJECT_DIR$/Day 7/Lab Guide" />
       <recent name="$PROJECT_DIR$/Day 5/Lab Guide/data" />
       <recent name="$PROJECT_DIR$/Day 5/Lab Guide" />
@@ -170,8 +163,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lab6-problem3-1">
-    <configuration name="lab6-problem2-3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.lab6-problem4-1">
+    <configuration name="lab6-problem3-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,7 +173,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem2-3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem3-2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +182,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lab6-problem2-4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lab6-problem4-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,7 +191,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem2-4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem4-1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,16 +200,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lab6-problem2-5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lab7-problem2-3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 7/Lab Guide" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 8/Lab Guide" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem2-5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,16 +218,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lab6-problem3-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lab7-problem2-4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 7/Lab Guide" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 8/Lab Guide" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem3-1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,16 +236,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lab6-problem5-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lab7-problem3-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 7/Lab Guide" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 8/Lab Guide" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem5-1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem3-1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lab6-problem3-1" />
-        <item itemvalue="Python.lab6-problem5-1" />
-        <item itemvalue="Python.lab6-problem5-1" />
-        <item itemvalue="Python.lab6-problem3-1" />
-        <item itemvalue="Python.lab6-problem2-5" />
+        <item itemvalue="Python.lab6-problem4-1" />
+        <item itemvalue="Python.lab6-problem3-2" />
+        <item itemvalue="Python.lab6-problem3-2" />
+        <item itemvalue="Python.lab7-problem3-1" />
+        <item itemvalue="Python.lab7-problem3-1" />
       </list>
     </recent_temporary>
   </component>
@@ -285,10 +278,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1409" height="695" extended-state="1" />
-    <editor active="true" />
+    <frame x="77" y="29" width="1294" height="695" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.021945868" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18769968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -299,9 +291,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32849365" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3283582" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32669982" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32669982" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3283582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -346,9 +338,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lab2-problem1.py" />
-    <entry file="file://$PROJECT_DIR$/lab2-problem4.py" />
-    <entry file="file://$PROJECT_DIR$/lab2-problem5.py" />
     <entry file="file://$PROJECT_DIR$/lab2-problem2.py" />
     <entry file="file://$PROJECT_DIR$/lab2-problem3.py" />
     <entry file="file://$PROJECT_DIR$/Day3/lab2-problem5.py" />
@@ -525,36 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem1-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-790">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem2-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem2-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem2-3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -595,10 +554,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem3-2.py">
+    <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem3-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="65">
+          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -608,17 +567,127 @@
     <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem5-1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1253">
-          <caret line="153" column="52" lean-forward="true" selection-start-line="153" selection-start-column="52" selection-end-line="153" selection-end-column="52" />
+          <caret line="153" column="52" selection-start-line="153" selection-start-column="52" selection-end-line="153" selection-end-column="52" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem3-1.py">
+    <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem1-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+        <state relative-caret-position="137">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem2-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem2-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem1-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1825">
+          <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem1-0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="205" column="31" selection-start-line="205" selection-start-column="31" selection-end-line="205" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem3-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="184" column="50" selection-start-line="184" selection-start-column="50" selection-end-line="184" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem3-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-314">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem4-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="157" column="70" lean-forward="true" selection-start-line="157" selection-start-column="70" selection-end-line="157" selection-end-column="70" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

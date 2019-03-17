@@ -45,11 +45,11 @@ def learningCurve(theta, X_train, y_train, X_cv, y_cv, lambda_param):
     for i in range(1, number_examples + 1):
         theta, _ = gradientDescent(theta, X_train[:i, :], y_train[:i, :], 0.001, 3000, lambda_param)
 
-        cost_train = # Write code to calculate the cost of trainning dataset
-        # Write code to store the computed cost in the array J_train
+        cost_train = linearRegressionCostFunction(theta, X_train[:i, :], y_train[:i, :], lambda_param)
+        J_train.append(cost_train)
 
-        cost_cv = # Write code to calculate the cost of cross validation dataset
-        # Write code to store the computed cost in the array J_cv
+        cost_cv = linearRegressionCostFunction(theta, X_cv, y_cv, lambda_param)
+        J_cv.append(cost_cv)
 
     return J_train, J_cv
 

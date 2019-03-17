@@ -93,7 +93,7 @@ max_iteration = 1000
 
 for iteration in range(0, max_iteration):
     loss_this_iter = 0
-    order = # Put your code here
+    order = np.random.permutation(number_examples)
 
     for i in range(0, number_examples):
 
@@ -102,7 +102,7 @@ for iteration in range(0, max_iteration):
         y_sample = y[order[i], 0]
 
         # Feed forward step
-        a_arr = [x_sample]
+        activation_arrays = [x_sample]
         z_arr = [[]]
         delta = [[]]
 
@@ -110,30 +110,31 @@ for iteration in range(0, max_iteration):
         gradient_biases = [[]]
 
         for l in range(1, number_layers + 1):
-            z_arr.append(Weights[l].T * a_arr[l - 1] + Biases[l])
-            a_arr.append(activation(z_arr[l]))
+            z_arr.append(Weights[l].T * activation_arrays[l - 1] + Biases[l])
+            activation_arrays.append(activation(z_arr[l]))
 
             # Just to give arrays the right shape for the backprop step
             delta.append([])
             gradient_weights.append([])
             gradient_biases.append([])
 
-        loss_this_sample = costFunction(y_sample, a_arr[number_layers][0, 0])
+        loss_this_sample = costFunction(y_sample, activation_arrays[number_layers][0, 0])
         loss_this_iter = loss_this_iter + loss_this_sample
 
         # Backprop step
-        delta[number_layers] = a_arr[number_layers] - y_sample
+        delta[number_layers] = activation_arrays[number_layers] - y_sample
 
         for l in range(number_layers, 0, -1):
             gradient_biases[l] = delta[l].copy()
-            gradient_weights[l] = # Pur your code here
+            gradient_weights[l] = activation_arrays[l - 1] * delta[l].T
 
             if l > 1:
-                delta[l - 1] = # Pur your code here
+                delta[l - 1] = np.multiply(activationDerivative(z_arr[l - 1]),
+                                           Weights[l] * delta[l])
 
         for l in range(1, number_layers + 1):
-            Weights[l] = # Pur your code here
-            Biases[l] = # Pur your code here
+            Weights[l] = learning_rate * gradient_weights[l]
+            Biases[l] = learning_rate * gradient_biases[l]
 
     print('\n')
     print('Iteration %d loss %f' % (iteration, loss_this_iter))

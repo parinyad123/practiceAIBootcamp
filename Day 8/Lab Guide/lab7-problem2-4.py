@@ -182,8 +182,10 @@ X_cv_polynomial_normalized = normalizer.fit_transform(X_cv_polynomial)
 Step 6: Plot learning curves for the polynomial features with lambda = 1 and lambda = 100
 '''
 
-initial_theta_polynomial = # Pur your code here
-J_train_polynomial_lambda1, J_cv_polynomial_lambda1 = # Put your code here
+initial_theta_polynomial = np.ones((X_train_polynomial_normalized.shape[1],1))
+J_train_polynomial_lambda1, J_cv_polynomial_lambda1 = learningCurve(initial_theta_polynomial, X_train_polynomial_normalized,
+                                                                    y_train, X_cv_polynomial_normalized,
+                                                                    y_cv,1)
 
 plt.figure(5)
 plt.plot(range(12), J_train_polynomial_lambda1, label="Train (lambda = 1)")
@@ -194,7 +196,9 @@ plt.ylabel("Error")
 plt.legend()
 
 
-J_train_polynomial_lambda100, J_cv_polynomial_lambda100 = # Put your code here
+J_train_polynomial_lambda100, J_cv_polynomial_lambda100 = learningCurve(initial_theta_polynomial, X_train_polynomial_normalized,
+                                                                    y_train, X_cv_polynomial_normalized,
+                                                                    y_cv,100)
 
 plt.figure(5)
 plt.plot(range(12), J_train_polynomial_lambda100, label="Train (lambda = 100)", linestyle='dashed')
