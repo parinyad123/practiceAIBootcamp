@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22c1532f-2408-4eca-aeb9-a99dc705fb67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day 8/Lab Guide/data/lab7data1.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem3-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem3-2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem4-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem4-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem1-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem1-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem2-4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem3-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 8/Lab Guide/lab7-problem3-1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem3-2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-314">
-              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="2112">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -36,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem4-1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="157" column="70" lean-forward="true" selection-start-line="157" selection-start-column="70" selection-end-line="157" selection-end-column="70" />
+            <state relative-caret-position="1559">
+              <caret line="65" column="42" lean-forward="true" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -101,8 +92,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="77" />
-    <option name="y" value="29" />
+    <option name="x" value="72" />
+    <option name="y" value="23" />
     <option name="width" value="1294" />
     <option name="height" value="695" />
   </component>
@@ -168,6 +159,9 @@
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 7/Lab Guide" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -186,6 +180,9 @@
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 7/Lab Guide" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -204,6 +201,9 @@
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 8/Lab Guide" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -222,6 +222,9 @@
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 8/Lab Guide" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -240,6 +243,9 @@
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 8/Lab Guide" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -278,9 +284,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="29" width="1294" height="695" extended-state="0" />
+    <frame x="72" y="23" width="1294" height="695" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18769968" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19009584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -676,8 +683,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem3-2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-314">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="2112">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -686,8 +693,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 7/Lab Guide/lab6-problem4-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="157" column="70" lean-forward="true" selection-start-line="157" selection-start-column="70" selection-end-line="157" selection-end-column="70" />
+        <state relative-caret-position="1559">
+          <caret line="65" column="42" lean-forward="true" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
