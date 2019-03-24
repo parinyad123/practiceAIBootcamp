@@ -14,7 +14,8 @@ def processEmail(email_content, vocabulary):
     # Lower case
     email_content = email_content.lower()
 
-    # Handle numbers
+    # Handle numbers, regular expression
+    # เปลี่ยนตัวเลขเป็น
     email_content = re.sub("[0-9]+", "number", email_content)
 
     # Handle URLs

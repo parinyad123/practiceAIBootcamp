@@ -20,7 +20,7 @@ def findBestCandSigma(X, y, step_values):
             classifier.fit(X, y)
 
             score = classifier.score(X, y)
-
+            # หาจุดที่ดีที่สุด
             if score > best_score:
                 best_score = score
                 best_c = c
@@ -57,7 +57,7 @@ print('\n')
 Step 1: Output the best C and gamma to use. To select these values, 
 we suggest trying value in multiplicative steps (e.g. [0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30])
 '''
-
+# ลองเพิ่มค่า values
 values = [0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30]
 c, gamma = findBestCandSigma(X_cv, y_cv.ravel(), values)
 
